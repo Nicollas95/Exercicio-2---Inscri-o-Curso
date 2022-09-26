@@ -1,0 +1,289 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Formulário</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="homepage is-preload">
+  <div id="page-wrapper">
+    <section id="footer" class="wrapper">
+      <div class="title">The Rest Of It</div>
+      <div class="container">
+        <header class="style1">
+          <h2>Ao infinito e além 🚀🚀🚀</h2>
+          <p>
+            Matricule-se já!
+          </p>
+          <section>
+            <nav id="nav">
+              <ul>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="biblioteca.html">Biblioteca</a></li>
+                <li><a href="cadastro.html">Matricule-se</a></li>
+              </ul>
+            </nav>
+
+          </section>
+        </header>
+        <div class="row">
+          <div class="col-12 col-12-medium">
+
+            <!-- Contact Form -->
+            <section>
+              <form method="post" action="https://63055f75697408f7edc567d8.mockapi.io/ApiEscola">
+
+                <h2>Dados | Alunos</h2><br>
+
+                <div class="row gtr-50">
+                  <div class="col-12 col-12-small">
+                    <input type="text" name="nomeAluno" placeholder="Nome completo" required />
+                  </div>
+
+                  <div class="col-8 col-12-small">
+                    <input type="text" name="endAluno" placeholder="Endereço" />
+                  </div>
+
+                  <div class="col-4 col-12-small">
+                    <input type="text" name="bairroAluno" placeholder="Bairro" />
+                  </div>
+
+                  <div class="col-4 col-12-small">
+                    <input type="text" name="cidade" placeholder="Cidade" />
+                  </div>
+
+                  <div class="col-2 col-12-small">
+                    <input type="text" name="num" placeholder="nº" />
+                  </div>
+
+                  <div class="col-3 col-12-small">
+                    <input type="text" name="cep" placeholder="CEP" />
+                  </div>
+
+                  <div class="col-3 col-12-small">
+                    <select name="estado" required>
+                      <option value="">Selecione o Estado</option>
+                      <option value="acre">AC</option>
+                      <option value="alagoas">AL</option>
+                      <option value="amapa">AP</option>
+                      <option value="amazonas">AM</option>
+                      <option value="bahia">BA</option>
+                      <option value="ceara">CE</option>
+                      <option value="distrito">DF</option>
+                      <option value="espirito">ES</option>
+                      <option value="goais">GO</option>
+                      <option value="maranhao">MA</option>
+                      <option value="matogrosso">MT</option>
+                      <option value="matosul">MS</option>
+                      <option value="minas">MG</option>
+                      <option value="para">PA</option>
+                      <option value="paraiba">PB</option>
+                      <option value="parana">PR</option>
+                      <option value="pernambuco">PE</option>
+                      <option value="riojaneiro">RJ</option>
+                      <option value="rionorte">RN</option>
+                      <option value="riosul">RS</option>
+                      <option value="rondonia">RO</option>
+                      <option value="roraima">RR</option>
+                      <option value="santacat">SC</option>
+                      <option value="saopaulo">SP</option>
+                      <option value="sergipe">SE</option>
+                      <option value="tocantins">TO</option>
+                    </select>
+                  </div>
+
+                  <div class="col-6 col-12-small">
+                    <input type="text" name="complemento" placeholder="Complemento" />
+                  </div>
+
+                  <div class="col-3 col-12-small">
+                    <input type="text" name="telefone" placeholder="Telefone" />
+                  </div>
+
+                  <div class="col-3 col-12-small">
+                    <input type="text" name="celular" placeholder="Celular" required />
+                  </div>
+
+                  <div class="col-8 col-12-small">
+                    <input type="text" name="email" placeholder="E-mail" required />
+                  </div>
+
+                  <div class="col-4 col-12-small">
+                    <select name="cor" value="" placeholder="Cor" required>
+                      <option value="">Cor</option>
+                      <option value="amarela">Amarela</option>
+                      <option value="branca">Branca</option>
+                      <option value="indigina">Indígina</option>
+                      <option value="parda">Parda</option>
+                      <option value="preta">Preta</option>
+                    </select>
+                  </div><br>
+
+                  <div class="col-12 col-12-small">
+                    <h1>Dados | Pai</h1>
+                  </div>
+
+                  <div class="row gtr-50">
+                    <div class="col-12 col-12-small">
+                      <input type="text" name="nomePai" placeholder="Nome completo" required />
+                    </div>
+
+                    <div class="col-4 col-12-small">
+                      <input type="text" name="cpfPai" placeholder="CPF" required />
+                    </div>
+
+                    <div class="col-8 col-12-small">
+                      <input type="text" name="emailPai" placeholder="E-mail" required />
+                    </div>
+
+                    <div class="col-4 col-12-small">
+                      <input type="date" name="dataNascPai" />
+                    </div>
+
+                    <div class="col-4 col-12-small">
+                      <input type="text" name="natPai" placeholder="Naturalidade" />
+                    </div>
+
+                    <div class="col-4 col-12-small">
+                      <input type="text" name="instrPai" placeholder="Instrução" />
+                    </div>
+
+                    <div class="col-5 col-12-small">
+                      <input type="text" name="profPai" placeholder="Profissão" />
+                    </div>
+
+                    <div class="col-4 col-12-small">
+                      <input type="text" name="celularPai" placeholder="Celular" required />
+                    </div>
+
+                    <div class="col-3 col-12-small">
+                      <select name="respPai" value="">
+                        <option value="">Responsável financeiro?</option>
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                      </select>
+                    </div>
+
+
+                    <div class="col-12 col-12-small">
+                      <h1>Dados | Mãe</h1>
+                    </div>
+
+                    <div class="row gtr-50">
+                      <div class="col-12 col-12-small">
+                        <input type="text" name="nomeMae" placeholder="Nome completo" required />
+                      </div>
+
+                      <div class="col-4 col-12-small">
+                        <input type="text" name="cpfMae" placeholder="CPF" required />
+                      </div>
+
+                      <div class="col-8 col-12-small">
+                        <input type="text" name="emailMae" placeholder="E-mail" required />
+                      </div>
+
+                      <div class="col-4 col-12-small">
+                        <input type="date" name="dataNascMae" />
+                      </div>
+
+                      <div class="col-4 col-12-small">
+                        <input type="text" name="natMae" placeholder="Naturalidade" />
+                      </div>
+
+                      <div class="col-4 col-12-small">
+                        <input type="text" name="instrMae" placeholder="Instrução" />
+                      </div>
+
+                      <div class="col-5 col-12-small">
+                        <input type="text" name="profMae" placeholder="Profissão" />
+                      </div>
+
+                      <div class="col-4 col-12-small">
+                        <input type="text" name="celularMae" placeholder="Celular" required />
+                      </div>
+                      <div class="col-3 col-12-small">
+                        <select name="respMae" value="" required>
+                          <option value="">Responsável financeiro?</option>
+                          <option value="sim">Sim</option>
+                          <option value="nao">Não</option>
+                        </select>
+                      </div>
+
+
+                      <div class="col-12 col-12-small">
+                        <h1>Dados | Curso</h1>
+                      </div>
+
+                      <div class="col-12 col-12-small">
+                        <select name="nomeCurso" id="cor" value="" required>
+                          <option value="">Selecione curso:</option>
+                          <option value="danca">Dança</option>
+                          <option value="musica">Música</option>
+                          <option value="teatro">Teatro</option>
+                        </select>
+                      </div>
+
+                      <div class="col-4 col-12-small">
+                        <input type="date" name="dataIngresso" required />
+                      </div>
+
+                      <div class="col-4 col-12-small">
+                        <select name="valorCurso" value="" required>
+                          <option value="">Valor:</option>
+                          <option value="R$ 1.599,99">R$ 1.599,99</option>
+                          <option value="R$ 1.699,99">R$ 1.699,99</option>
+                          <option value="R$ 1.759,00">R$ 1.759,00</option>
+                        </select>
+                      </div>
+
+                      <div class="col-4 col-12-small">
+                        <select name="pagCurso" value="" required>
+                          <option value="">Forma pagamento:</option>
+                          <option value="boleto">Boleto</option>
+                          <option value="credito">Crédito</option>
+                          <option value="debito">Débito</option>
+                          <option value="pix">Pix</option>
+                          <option value="parc1">2 x R$ 799,99</option>
+                          <option value="parc2">3 x R$ 586,66 </option>
+                          <option value="parc3">2 x R$ 849,99</option>
+                        </select>
+                      </div>
+
+                      <div class="col-12">
+                        <ul class="actions">
+                          <li><input type="submit" class="style1" value="Cadastrar" /></li>
+                          <li><input type="reset" class="style2" value="Cancelar" /></li>
+                        </ul>
+                      </div>
+                    </div>
+              </form>
+            </section>
+          </div>
+        </div>
+        <div id="copyright">
+          <ul>
+            <li>&copy; Untitled.</li>
+            <li>Design: <a href="http://html5up.net">HTeL5 UP</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.dropotron.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
